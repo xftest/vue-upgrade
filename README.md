@@ -1,11 +1,6 @@
 # 前言
 
-[README in English](README-en.md)
 个人练习项目
-
-**注 1：此项目纯属个人瞎搞，正常下单请选择饿了么官方客户端。**
-
-**注 2：项目预览地址和接口需要使用 https 访问哦！**
 
 ## 技术栈
 
@@ -25,36 +20,6 @@ npm install 或 yarn(推荐)
 npm run dev
 
 ```
-
-## 关于接口数据
-
-此项目的所有接口数据都来源于配套的后台系统，[后台项目传送地址](https://github.com/bailicangdu/node-elm)。
-
-如果想体验前后台同时开发，可以下载后台系统。
-
-此时启动本项目的命令为：npm run local 而不是 npm run dev。
-
-同时我们也提供了基于`element-ui`搭建的[后台管理页面](https://github.com/bailicangdu/vue2-manage)
-
-如果只做前端开发，请忽略上面这几句话哟～
-
-# 说明
-
-> 如果对您有帮助，您可以点右上角 "Star" 支持一下 谢谢！ ^\_^
-
-> 或者您可以 "follow" 一下，我会不断开源更多的有趣的项目
-
-> 开发环境 macOS 10.12.3 Chrome 56  nodejs 6.10.0
-
-> 特别感谢[@bailichen](https://github.com/bailichen), [@iceRao](https://github.com/raoenhui)，在百忙之中抽出时间和我一起完成了这个项目，辛苦了 🌹
-
-> 如有问题请直接在 Issues 中提，或者您发现问题并有非常好的解决方案，欢迎 PR 👍
-
-> [项目交流群](https://gitter.im/vue2-elm/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
-
-> 推荐一个 react + redux 开源项目，对 react 感兴趣的朋友赶紧去看看。[地址在这里](https://github.com/bailicangdu/react-pxq)
-
-> 另外一个 vue2 + vuex 的入门项目，比当前的项目简单很多，非常适合入门练习。[地址在这里](https://github.com/bailicangdu/vue2-happyfri)
 
 # 效果演示
 
@@ -91,30 +56,6 @@ npm run dev
 - [x] 红包 -- 完成
 - [x] 上传头像 -- 完成
 - [ ] 付款 -- 臣妾做不到啊~~
-
-# 总结
-
-1、一般涉及到 money 的网页逻辑都比较复杂，尤其像饿了么这样一个开放的平台，商家和食品种类繁多，页面与页面之间交互复杂，在写到 购物车 和 下单 功能时众多的数据和逻辑一度让人很头疼，又没有设计和接口 api 文档，只能一步步摸索。
-
-2、vue 因其轻量级的框架在中小型项目中表现亮眼，在大型单页面应用中因为 vuex 的存在，表现依然出色，在处理复杂交互逻辑的时候，vuex 的存在是不可或缺的。所以说利用 vue + vuex 完全可以去做大型的单页面项目。
-
-3、项目写到现在，从 登录注册到、首页、搜索、商家列表、购物车、下单、订单列表、个人中心 一个流程走完之后、不但对 vue 的理解更深一层，而且对以后掌控大型项目的时候也有非常多的帮助，做一个实际的项目才能对自己有很大的提升。
-
-4、曾一度怀疑，花几个月的时间做这样一个项目到底有没有意义，本来只是想做一个小项目练练手，没想到后来越写越多，不过坚持下来后我相信一切都是值得的。
-
-5、项目已经完成，共 45 个页面。
-
-# 最终目标
-
-1、用 node.js 构建一个模拟外卖平台的后台系统。[地址在这里](https://github.com/bailicangdu/node-elm)
-
-2、写出跨 Android 和 IOS 的原生 APP 版本。[地址在这里](https://github.com/bailicangdu/native-xdm)
-
-3、如果时间来的及，会出一卖家版本。
-
-所以我的目的是构建一个横跨前后端，移动 IOS、Android 的完整生态圈。
-
-。。。敬请期待
 
 # 部分截图
 
@@ -278,7 +219,3 @@ npm run dev
 
 56 directories, 203 files
 ```
-
-# License
-
-[GPL](https://github.com/bailicangdu/vue2-elm/blob/master/COPYING)
